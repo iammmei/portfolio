@@ -5,9 +5,14 @@ export const Navbar = () => {
 
   return ( 
      <nav className={styles.navbar}>
-    <a href="/">Portfolio</a>
-    <div>
-        <ul>
+
+    <a className={styles.title} href="/"> 
+    Portfolio 
+    </a>
+
+    <div className={styles.menu}>
+        
+        <ul className={styles.menuItems}>
             <li> <a href="#about"></a> About </li>
 
             <li> <a href="#experience"></a>Experience </li>
