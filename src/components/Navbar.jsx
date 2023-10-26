@@ -1,18 +1,18 @@
 import React from 'react'
-import styles from './Navbar.module.css';
+
 
 export const Navbar = () => {
 
   return ( 
-     <nav className={styles.navbar}>
+     <nav >
 
-    <a className={styles.title} href="/"> 
+    <a href="/"> 
     Portfolio 
     </a>
 
-    <div className={styles.menu}>
+    <div >
         
-        <ul className={styles.menuItems}>
+        <ul >
             <li> <a href="#about"></a> About </li>
 
             <li> <a href="#experience"></a>Experience </li>
